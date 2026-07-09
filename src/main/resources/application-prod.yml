@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: @active.spring.profile@
+      label: master
+  config:
+    import: configserver:http://config-server:8080/

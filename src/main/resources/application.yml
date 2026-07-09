@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cdc-debezium
+  profiles:
+    active:
+      - @active.spring.profile@
+  main:
+    web-application-type: servlet
+    allow-bean-definition-overriding: true
